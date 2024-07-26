@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antes de desbloquear lo que hay detrás, responde estas 5 preguntas.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz de 3 meses.</h1>
+        <div id="quiz">
+            <div class="question-container">
+                <p class="question">1: ¿Cuándo empezamos realmente?</p>
+                <button class="button-85" data-correct="false">A: 26/04/2024</button>
+                <button class="button-85" data-correct="true">B: 28/04/2024</button>
+            </div>
+            <div class="question-container">
+                <p class="question">2: ¿Cuándo fuimos en serio?</p>
+                <input type="text" id="answer2" class="button-50" placeholder="Escribe tu respuesta aquí">
+            </div>
+            <div class="question-container">
+                <p class="question">3: ¿Cuándo nos casamos?</p>
+                <input type="text" id="answer3" class="button-50" placeholder="Escribe tu respuesta aquí">
+            </div>
+            <div class="question-container">
+                <p class="question">4: ¿Me amas?</p>
+                <button class="button-85" data-correct="true">A: Sí</button>
+                <button class="button-85" data-correct="true">B: No</button>
+                <button class="button-85" data-correct="true">C: No sé</button>
+            </div>
+            <button id="submitQuiz" class="button-85">Enviar</button>
+        </div>
+        <div id="result" class="hidden">
+            <h2>Gracias por tomarte el tiempito de contestarlo.</h2>
+            <p id="resultMessage"></p>
+            <button id="continueButton" class="button-85 hidden">¿Deseas continuar?</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
